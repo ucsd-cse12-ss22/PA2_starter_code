@@ -1,7 +1,7 @@
 
 public interface MyList<E> {
 	  E[] toArray();
-	  void transformAll(MyTransformer<E> mt);
-	  void chooseAll(MyChooser<E> mc);
+	  void transformAll(MyTransformer mt);
+	  void chooseAll(MyChooser mc);
 	  boolean isEmpty();
 }
